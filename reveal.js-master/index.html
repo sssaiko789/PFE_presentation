@@ -11,7 +11,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css" />
 		<link rel="stylesheet" href="dist/reveal.css" />
-		<link rel="stylesheet" href="dist/theme/black.css" />
+		<link rel="stylesheet" href="dist/theme/white.css" />
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="dist/plugin/highlight/monokai.css" />
@@ -19,10 +19,306 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!-- Introduction -->
+				<section>
+					<h3>Introduction</h3>
+					<p>L'Algérie ce situe dans une région géologique active.</p>
+					<img src="img/intro/sismicite.jpg" alt="sismicite de l'Algerie" style="width: 80%; border-radius: 12pt;">
+				</section>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!-- Plan de travail -->
+				<section>
+					<h2>Plan de travail</h2>
+					<ol>
+						<li>Introduction</li>
+						<li>Plan de travail</li>
+						<li>Analyse comparative des règlements (RPA)</li>
+						<li>Présentation des structures</li>
+						<li>Modélisation</li>
+						<li>Outils de calcul</li>
+						<li>Analyse des résultats</li>
+						<li>Analyse comparative</li>
+						<li>Conclusion</li>
+					</ol>
+				</section>
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!-- Versus RPAs -->
+				<section>
+					<section>
+						<h1>Analyse comparative :</h1>
+						<h2>RPA 2003 vs RPA 2024</h2>
+					</section>
+
+					<section>
+						<h4>Évolution chronologique du RPA</h4>
+						<img src="img/vs_rpa/evo_rpa.png" alt="Evolution chronologique RPA">
+					</section>
+
+					<section>
+						<h4>Structure des chapitres du RPA</h4>
+						<img src="img/vs_rpa/structure_rpa.png" alt="structure rpa">
+					</section>
+
+					<section>
+						<h4>Classifications des zones sismiques</h4>
+
+						<img src="img/vs_rpa/zone_rpa03.png" alt="zone rpa03" style="width: 45%;">
+						
+						<img src="img/vs_rpa/zone_rpa24.png" alt="zone rpa24" style="width: 45%;">
+
+						<img src="img/vs_rpa/zn_rpa03.png">
+
+						<img src="img/vs_rpa/zn_rpa24.png">
+					</section>
+
+
+
+
+
+
+
+
+					<section>
+						<h4>Classification des sites</h4>
+						<p>On recense 4 sites identiques : </p>
+						<ul>
+							<li>Site S1 : Roche ou sol très ferme</li>
+							<li>Site S2 : Sol ferme</li>
+							<li>Site S3 : Sol meuble</li>
+							<li>Site S4 : Sol très meuble</li>
+						</ul>
+					</section>
+					<section>
+						<h4>Le RPA 2024 adopte un 5éme site</h4>
+						<p>Conditions pour classer en site S5 :</p>
+						<ul>
+							<li>Présence de sols instables sous action sismique.</li>
+							<li>Présence de sols vaseux ou d'argile avec une très forte teneur en matières organiques
+								sur une épaisseur de plus de 3m.</li>
+							<li>Présence d'argile très plastique sur une épaisseur de plus de 7.5m</li>
+						</ul>
+					</section>
+					<section>
+						<h4>Impact du site sur les calculs</h4>
+						<img src="img/vs_rpa/impact_site.png">
+					</section>
+					<section>
+						<h4>Impact du coefficient de site "S" du RPA 2024 sur le spectre de réponse</h4>
+						<p>Le coefficient agit comme un facteur multiplicateur</p>
+						<img src="img/vs_rpa/mlt_s.png" style="width: 70%;">
+						<p>Une analyse des spectres selon les zones est nécessaire.</p>
+					</section>
+
+
+
+
+
+
+
+
+
+					<section>
+						<h4>Classification des systèmes de contreventement</h4>
+						<p>Le RPA 2003 est composée de 4 catégories :</p>
+						<ul>
+							<li>Structure en béton armé</li>
+							<li>Structure en acier</li>
+							<li>Structure en maçonnerie</li>
+							<li>Autres systèmes</li>
+						</ul>
+						<p>Le RPA 2024 rajoute : </p>
+						<ul>
+							<li>Structures associant les PAF</li>
+							<li>Structures en bois</li>
+						</ul>
+					</section>
+					<section>
+						<h4>Coefficient de comportement global "R"</h4>
+						<p>Le RPA 2024 augmente R pour les systèmes à haute ductilité et diminue pour les systèmes à comportement
+							plus fragile ou moins redondant.
+						</p>
+					</section>
+					<section>
+						<h4>Calcul de la force sismique par la MSE</h4>
+						<p>RPA 2003 : </p>
+						<img src="img/vs_rpa2/mse_03.png" style="width: 40%;">
+						<p>RPA 2024 : </p>
+						<img src="img/vs_rpa2/mse_24.png" style="width: 43%;">
+					</section>
+					<section>
+						<p>La formule pour calculer le poids : </p>
+						<img src="img/vs_rpa2/poids.png" style="width: 60%;">
+						<div style="display: flex; gap: 2rem; justify-content: center;">
+
+							<small>
+								<table>
+									<thead>
+										<tr>
+											<th>Type d'ouvrage</th>
+											<th>Beta RPA 2003</th>
+											<th>Psi RPA 2024</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>Bât. à usage d'habitation ou bureaux</th>
+											<th>0,20</th>
+											<th>0,30</th>
+										</tr>
+										<tr>
+											<th>Bât. recenvant du public temporairment</th>
+											<th>0,30</th>
+											<th>0,40</th>
+										</tr>
+										<tr>
+											<th>Entropots, hangars</th>
+											<th>0,40</th>
+											<th>0,50</th>
+										</tr>
+										<tr>
+											<th>Archives, bibliothèques, réservoirs...</th>
+											<th>1,00</th>
+											<th>1,00</th>
+										</tr>
+										<tr>
+											<th>Autres locaux</th>
+											<th>0,60</th>
+											<th>0,60</th>
+										</tr>
+									</tbody>
+								</table>
+							</small>
+
+						</div>
+					</section>
+
+				</section>
+			
+			
+			
+			
+			
+			
+			
 			</div>
 		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -30,6 +326,7 @@
 		<script src="dist/plugin/notes.js"></script>
 		<script src="dist/plugin/markdown.js"></script>
 		<script src="dist/plugin/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
 		
 		
 		<script>
@@ -44,5 +341,6 @@
 				plugins : [RevealMarkdown, RevealHighlight, RevealNotes],
 			});
 		</script>
+
 	</body>
 </html>
