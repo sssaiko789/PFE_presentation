@@ -1,0 +1,114 @@
+
+- Introduction :
+    "Ajouter une figures sur la sismicite de l'algerie."
+
+    Pour introduire le sujet, il est important de rappeler que notre pays ce situe dans une région 
+    géologique particulièrement active.
+    
+    Pendant plus de deux décennies, le RPA99/2003 a régi la conception parasismique en Algérie.
+    Toutefois, l'évolution des connaissances en génie parasismique et les retours d'expérience 
+    mondiaux et nationaux ont rendu impérative l'actualisation de nos normes. C'est ainsi qu'est
+    né le nouveau RPA 2024.
+    
+    La question qui ce pose : Quelles sont les implications réelles de cette transition ?
+    L'objectif : Évaluer et quantifier l'impact direct du passage du RPA 2003 au RPA 2024 sur le comportement dynamique,
+    la stabilité et le dimensionnement des ouvrages en béton armé.
+    L'étude se focalisera sur l'influence du site pour deux cas de structures (autostables et mixtes).
+    "note : ferr uniqument pour les portiques".
+
+
+- Plan de travail :
+
+
+- Analyse comparative des RPAs :
+    
+
+- Presentation des structures :
+    Notre projet consiste à l'étude de deux bâtiments :
+    (R+3) : usage d'habitation, implanté a TIZI-OUZOU.
+    (R+6) : usage de bureau, implanté a TIZI-OUZOU.
+    "Note : donner la sismicite zone"
+
+    Normes et règlements :
+    - RPAs.
+    - BAEL.
+    - Charges et surcharges d'exploitation.
+    
+    Caractéristiques géométriques : 
+
+    Caractéristiques mécaniques des matériaux : 
+
+    Dimensions des éléments :
+
+        - Les planchers sont en corps creux de dimension (16+4)cm.
+        - Les poutres :
+        - Les poteaux :
+        - Les escaliers :
+        - Les balcons :
+        - Les voiles :
+    
+    Charges et surcharges d'exploitations :
+
+
+    
+
+- Modelisation :
+    ETABS est un logiciel de calcul par éléments finis.
+    Les méthodes d'anlyse linéaires (comportement élastique) :
+        - Méthode statique équivalente.
+        - Méthode modale spectrale.
+        - Méthode temporelle linéaire.
+    Les méthodes non-linéaires (comportement post-élastique)
+        - Méthode Pushover.
+        - Méthode analyse temporelle non-linéaire
+
+    La méthode modale spectrale sera utilisée pour simuler le séisme.
+    
+    Les étapes de modélisation sont : "Ne pas mettre"
+
+
+- Programme Py :
+    "ajouter le shema de fonctionnnment figureIV.1 et des logos)
+    "une figure de l'interface"
+    La combinasion de deux structures avec les deux règlements et les 4 types de sols générent 16 analyse d'ETABS.
+    Pour faciliter l'étude un outil est développé en langage Python.
+    "ajouter la fig ici organigramme"
+
+    Le programme est subdivisé en plusieurs applications :
+        1 - Application pour faire les vérifications règlementaires.
+        2 - Application de ferraillages et vérifications.
+        3 - Applications pour comparer les résultats.
+        
+        1 : Permets de vérifier :
+            - Les modes a retenir.
+            - Les forces sismiques.
+            - Distrubutions de la force sismique sur les étages.
+            - Le renversement.
+            - Déplacements inter-étages.
+            - L'effet P-Delta.
+
+        2 : Permets de :
+            - Ferrailler les poutres en flexion simple.
+            - Ferrailler les poteaux en flexion composée.
+            - Ferrailler les poteaux en flexion composée deviée.
+            - Ferraillages transversales.
+
+            - Vérifier les contraintes de cisaillements pour les poutres (BAEL A5.1.211).
+            - Vérifier les contraintes à l'ELS pour les poutres.
+            - Vérifier l'effort normal réduit pour les poteaux (RPA A.7.4.3).
+            - Vérifier les contraintes tangentielles pour les poteaux (RPA A.7.4.3).
+            
+            - Calculer les quantités d'aciers.
+
+
+
+- Analyse des resultats :
+    - Analyse modale
+    - Les excentricités
+    - Forces sismiques
+    - Stabilité
+    - Déplacements inter-étages
+    - P-Delta
+
+
+- Analuyse comparative :
