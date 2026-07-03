@@ -580,6 +580,56 @@
 					<section>
 						<h1>Outils de calcul</h1>
 					</section>
+				    
+                    <section>
+                        <img src="img/py/flowchart.png">
+                    </section>
+
+                    <section>
+                        <h4>Le programme est subdivié en plusieurs applications :</h4>
+                        <ul>
+                            <li>Vérifications règlementaires (RPA)</li>
+                            <li>Calcul du ferraillages et vérifications</li>
+                            <li>Comparer les résultats</li>
+                        </ul>
+                    </section>
+
+
+                    <section>
+                        <h4>Vérifications règlementaires (RPA)</h4>
+                        <ul>
+                            <li>Les modes à retenir.</li>
+                            <li>Vérification des forces sismiques</li>
+                            <li>Distrubution de la force sismique sur les étages</li>
+                            <li>Vérification de la stabilité (Renversement).</li>
+                            <li>Déplacement inter-étages</li>
+                            <li>L'effet P-Delta</li>
+                        </ul>
+                    </section>
+
+
+                    <section>
+                        <h4>Ferraillage</h4>
+                        <ul>
+                            <li>Ferrailler les poutres en flexion simple (appuie et travée)</li>
+                            <li>Ferrailler les poteaux flexion composée et composée déviée</li> 
+                            <li>Ferraillage transversale</li>
+                            <li>Calcul des quantités d'aciers.</li>
+                        </ul>
+                        <h4>Autres vérifcations</h4>
+                        <ul>
+                            <li>Contraintes de cisaillements pour les poutres (BAEL A5.1.211).</li>
+                            <li>Contraites à l'ELS pous les poutres.</li>
+                            <li>L'effort normal réduit pour les poteaux (RPA A.7.4.3).</li>
+                            <li>Contraintes tangentielles pour les poteaux (RPA A.7.4.3).</li>
+                        </ul>
+                    </section>
+
+
+
+
+
+                    
 				</section>
 			
 			
@@ -659,6 +709,13 @@
 				progress : true,
 				controls : true,
 				center : true,
+				overflow: 'scroll',
+				
+				width: 1200,
+				height: 900,
+				margin: 0.02,
+				minScale: 0.1,
+				maxScale: 1.0,
 				
 				plugins : [RevealMarkdown, RevealHighlight, RevealNotes],
 			});
