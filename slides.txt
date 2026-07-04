@@ -1,6 +1,6 @@
 
 - Introduction :
-    "Ajouter une figures sur la sismicite de l'algerie."
+    "Ajouter une figures sur la sismicité de l'Algérie."
 
     Pour introduire le sujet, il est important de rappeler que notre pays ce situe dans une région 
     géologique particulièrement active.
@@ -21,6 +21,22 @@
 
 
 - Analyse comparative des RPAs :
+    - évolution chronologique.
+    - Structure des RPA."ajouter tableaux"
+    - Classifications des zones sismiques.
+    - Classifications des sites. "Coefficient de site"
+    - Classifications des systèmes de contreventment.
+    - Coefficient de comportement.
+    - Formules MSE.
+    - Calcul du poids W.
+    - Formules spectres. "spectre verticales"
+    - Formules calcul des déplacements.
+    - Combinaison d'actions.
+    - Ferraillage et coffrages des éléments.
+    - Innovation technologique.
+    - Pushover.
+
+
     
 
 - Presentation des structures :
@@ -82,7 +98,7 @@
         1 : Permets de vérifier :
             - Les modes a retenir.
             - Les forces sismiques.
-            - Distrubutions de la force sismique sur les étages.
+            - Distributionsao de la force sismique sur les étages.
             - Le renversement.
             - Déplacements inter-étages.
             - L'effet P-Delta.
@@ -90,7 +106,7 @@
         2 : Permets de :
             - Ferrailler les poutres en flexion simple.
             - Ferrailler les poteaux en flexion composée.
-            - Ferrailler les poteaux en flexion composée deviée.
+            - Ferrailler les poteaux en flexion composée déviée.
             - Ferraillages transversales.
 
             - Vérifier les contraintes de cisaillements pour les poutres (BAEL A5.1.211).
@@ -102,7 +118,7 @@
 
 
 
-- Analyse des resultats :
+- Analyse des résultats :
     - Analyse modale
     - Les excentricités
     - Forces sismiques
@@ -111,4 +127,12 @@
     - P-Delta
 
 
-- Analuyse comparative :
+- Analyse comparative :
+    - Effort tranchant d'étages.
+    - Forces sismiques totales.
+    - Déplacements d'étage.
+    - Qte.
+
+
+
+- Conclusion :

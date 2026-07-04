@@ -32,20 +32,11 @@
         }
         #titre {
             font-weight: bold;
-            text-shadow: .2ex .2ex .3ex gray;
-        }
-        .container{
-            display: flex;
-            justify-content: center;
-            gap: 200px;
-            margin-top: 120px;
-        }
-        #prst {
-            font-size: .6em;
+            text-shadow: 1ex 1ex 2ex solid;
         }
     </style>
 
-        
+
 	</head>
 	<body>
 		<div class="reveal">
@@ -78,10 +69,8 @@
                     <p id="titre">Thème</p>
                     <p id="titre">Influence du site sur le calcul dynamique des structures :</p>
                     <p id="titre">Étude comparative RPA 2024 vs RPA 2003</p>
-                    <div class="container">
-                        <p id="prst">Présenté par : Mr. AMALOU Jugurta</p>
-                        <p id="prst">Encadré par : Pr. HAMIZI Mohand</p>
-                    </div>
+                    <p id="prst">Présenté par : Mr. AMALOU Jugurta</p>
+                    <p id="enc">Encadré par : Pr. HAMIZI Mohand</p>
                 </section>
 
 
