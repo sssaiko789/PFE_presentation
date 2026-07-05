@@ -1,0 +1,65 @@
+#pdg_upper {
+            font-size: .6em;
+            margin: .3em;
+}
+
+#p1 {
+    font-size: .6em;
+    margin: .3em;
+}
+
+#titre {
+    font-weight: bold;
+    text-shadow: .2ex .2ex .3ex gray;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 50px;
+}
+
+
+
+#prst {
+    font-size: .6em;
+}
+
+
+.reveal h1, h2 {
+    text-shadow: 5pt 5pt 5pt #DAB785;
+    color: #D5896F;
+}
+
+.reveal h3 {
+    text-shadow: 2pt 2pt 4pt gray;
+    color: #2D82B7;
+}
+
+
+.reveal h4 {
+    color: #9D5C63;
+}
+
+
+.reveal section {
+    position: relative;
+}
+
+
+.box {
+    position: absolute;
+    font-size: .6em;
+    left: -200px;
+    top: 400px;
+
+    width: 200px;
+    padding: 15px;
+
+    z-index: 1000;
+}
+
+
+

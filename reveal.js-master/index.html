@@ -20,31 +20,7 @@
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 
-    <style>
-        #pdg_upper {
-            font-size: .6em;
-            margin: .3em;
-        }
-
-        #p1 {
-            font-size: .6em;
-            margin: .3em;
-        }
-        #titre {
-            font-weight: bold;
-            text-shadow: .2ex .2ex .3ex gray;
-        }
-        .container{
-            display: flex;
-            justify-content: center;
-            gap: 200px;
-            margin-top: 50px;
-        }
-        #prst {
-            font-size: .6em;
-        }
-    </style>
-
+        <link rel="stylesheet" href="style.css">
         
 	</head>
 	<body>
@@ -265,12 +241,12 @@
 					</section>
 
 
-					<section>
-						<h4>Coefficient de comportement global "R"</h4>
-						<p>Le RPA 2024 augmente R pour les systèmes à haute ductilité et diminue pour les systèmes à comportement
-							plus fragile ou moins redondant.
-						</p>
-					</section>
+					<!-- <section> -->
+					<!-- 	<h4>Coefficient de comportement global "R"</h4> -->
+					<!-- 	<p>Le RPA 2024 augmente R pour les systèmes à haute ductilité et diminue pour les systèmes à comportement -->
+					<!-- 		plus fragile. -->
+					<!-- 	</p> -->
+					<!-- </section> -->
 
 
 
@@ -767,10 +743,18 @@
                         <h3>Forces sismiques</h3>
                         <h4>Structure (R+3)</h4>
                         <img style="width: 1560pt;height: 500pt;" src="img/vs/fs/force_sismique.png">
+                        <div class="box">
+                            Pour les sites S2->S4 la force sismique (ETABS) augmente en moyenne de 35%
+                            et diminue pour tout les sites d'une moyenne 44% pour la MSE.
+                        </div>
+                            
                     </section>
                     <section>
                         <h4>Structure (R+6)</h4>
                         <img style="width: 1560pt;height: 500pt;" src="img/vs/fs/force_sismique_r6.png">
+                        <div class="box">
+                            La forces sismique augmente d'une moyenne de 24-27% et diminue d'environ 41% pour la MSE.
+                        </div>
                     </section>
 
                     <section>
@@ -829,7 +813,17 @@
                         <h1>Conclusion</h1>
                     </section>
                     <section>
-                        balbal
+                        <p>
+                            Cette étude comparative confirme que le RPA 2024 introduit une évaluation de l'action sismique plus rigoureuse que le RPA 2003,
+                            notamment à travers le nouveau coefficient de site.
+                        </p>
+                        <p>
+                            les résultats restent pratiquement similaires entre les deux règlements pour le site S1, puis l'écart s'accentue
+                            graduellement à mesure que le sol devient plus meuble.
+                        </p>
+                        <p>
+                            Par ailleurs, le développement d'un outil Python a permis d'automatiser l'ensemble des cas d'étude de manière cohérente.
+                        </p>
                     </section>
                 </section>
                     
